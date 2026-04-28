@@ -17,12 +17,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Virtual environments
-.venv/
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
+.venv
 
 # Pytest
 .pytest_cache/
@@ -55,7 +50,6 @@ logs/
 
 # Environment variables / secrets
 .env
-.env.*
 
 # Distribution metadata
 pip-wheel-metadata/
