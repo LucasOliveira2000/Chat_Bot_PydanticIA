@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Pytest
+.pytest_cache/
+
+# Mypy / Pyre
+.mypy_cache/
+.pyre/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Distribution metadata
+pip-wheel-metadata/
+
+# Celery
+celerybeat-schedule
+
+# Jupyter
+.ipynb_checkpoints
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Local credentials and secrets
+credentials.json
+google-credentials.json
+secrets.json
+
+# Misc
+# Ignore local instance folders, static build outputs, etc.
+instance/
+staticfiles/
+media/
